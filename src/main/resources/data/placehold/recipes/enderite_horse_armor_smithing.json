@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "placehold:enderite_ingot"
+  },
+  "base": {
+    "item": "placehold:netherite_horse_armor"
+  },
+  "result": {
+    "item": "placehold:enderite_horse_armor"
+  }
+}
