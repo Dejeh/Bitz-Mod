@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "bitz:enderite_helmet",
+    "bitz:enderite_chestplate",
+    "bitz:enderite_leggings",
+    "bitz:enderite_boots"
+  ]
+}

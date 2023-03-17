@@ -1,0 +1,56 @@
+{
+  "parent": "bitz:obtain_arcane_debris",
+  "criteria": {
+    "enderite_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bitz:enderite_helmet"
+            ]
+          },
+          {
+            "items": [
+              "bitz:enderite_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "bitz:enderite_leggings"
+            ]
+          },
+          {
+            "items": [
+              "bitz:enderite_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.end.enderite_armor.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "bitz:enderite_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.end.enderite_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "enderite_armor"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "bitz:enderite_shovel",
+    "bitz:enderite_pickaxe",
+    "bitz:enderite_axe",
+    "bitz:enderite_hoe",
+    "bitz:enderite_sword"
+  ]
+}

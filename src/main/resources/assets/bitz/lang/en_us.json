@@ -1,0 +1,32 @@
+{
+  "item.bitz.enderite_ingot": "Enderite Ingot",
+  "item.bitz.enderite_scrap": "Enderite Scrap",
+
+  "item.bitz.enderite_shovel": "Enderite Shovel",
+  "item.bitz.enderite_pickaxe": "Enderite Pickaxe",
+  "item.bitz.enderite_axe": "Enderite Axe",
+  "item.bitz.enderite_hoe": "Enderite Hoe",
+  "item.bitz.enderite_sword": "Enderite Sword",
+
+  "item.bitz.enderite_helmet": "Enderite Helmet",
+  "item.bitz.enderite_chestplate": "Enderite Chestplate",
+  "item.bitz.enderite_leggings": "Enderite Leggings",
+  "item.bitz.enderite_boots": "Enderite Boots",
+
+  "item.bitz.netherite_horse_armor": "Netherite Horse Armor",
+  "item.bitz.enderite_horse_armor": "Enderite Horse Armor",
+
+  "block.bitz.enderite_block": "Block of Enderite",
+  "block.bitz.arcane_debris": "Arcane Debris",
+
+  "advancements.end.enderite_armor.description": "Get a full suit of Enderite armor",
+  "advancements.end.enderite_armor.title": "All Dressed in Black",
+  "advancements.end.obtain_arcane_debris.description": "Obtain Arcane Debris",
+  "advancements.end.obtain_arcane_debris.title": "Space Rocks",
+  "advancements.husbandry.enderite_hoe.description": "Use an Enderite Ingot to upgrade a Hoe, and then revel in your \"accomplishment\"",
+  "advancements.husbandry.enderite_hoe.title": "Utmost Dedication",
+  "advancements.husbandry.enderite_horse_armor.description": "Find or smith Enderite Horse Armor",
+  "advancements.husbandry.enderite_horse_armor.title": "True Love",
+
+  "creativemodetab.bitz_tab": "Bitz"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "bitz:block/arcane_debris_top",
+    "side": "bitz:block/arcane_debris_side"
+  }
+}

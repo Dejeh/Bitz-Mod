@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "placehold:enderite_block",
-    "placehold:arcane_debris"
+    "bitz:enderite_block",
+    "bitz:arcane_debris"
   ]
 }

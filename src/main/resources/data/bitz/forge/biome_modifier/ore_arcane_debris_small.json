@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_end",
+  "features": "bitz:ore_arcane_debris_small_placed",
+  "step": "underground_ores"
+}

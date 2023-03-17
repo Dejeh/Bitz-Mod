@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:end/root",
+  "criteria": {
+    "arcane_debris": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bitz:arcane_debris"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.end.obtain_arcane_debris.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "bitz:arcane_debris"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.end.obtain_arcane_debris.title"
+    }
+  },
+  "requirements": [
+    [
+      "arcane_debris"
+    ]
+  ]
+}

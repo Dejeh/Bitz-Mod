@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "enderite_horse_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bitz:enderite_horse_armor"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.husbandry.enderite_horse_armor.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "bitz:enderite_horse_armor"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.husbandry.enderite_horse_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "enderite_horse_armor"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  }
+}

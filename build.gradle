@@ -5,8 +5,8 @@ plugins {
 }
 
 version = 'forge-1.0-1.19.3'
-group = 'net.dejeh.placehold' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'placehold'
+group = 'net.dejeh.bitz' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'bitz'
 
 // Mojang ships Java 17 to end users in 1.18+, so your mod should target Java 17.
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
@@ -49,10 +49,10 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
-            property 'forge.enabledGameTestNamespaces', 'placehold'
+            property 'forge.enabledGameTestNamespaces', 'bitz'
 
             mods {
-                placehold {
+                bitz {
                     source sourceSets.main
                 }
             }
@@ -65,10 +65,10 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            property 'forge.enabledGameTestNamespaces', 'placehold'
+            property 'forge.enabledGameTestNamespaces', 'bitz'
 
             mods {
-                placehold {
+                bitz {
                     source sourceSets.main
                 }
             }
@@ -84,10 +84,10 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            property 'forge.enabledGameTestNamespaces', 'placehold'
+            property 'forge.enabledGameTestNamespaces', 'bitz'
 
             mods {
-                placehold {
+                bitz {
                     source sourceSets.main
                 }
             }
@@ -101,10 +101,10 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Specify the modid for data generation, where to output the resulting resource, and where to look for existing resources.
-            args '--mod', 'placehold', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            args '--mod', 'bitz', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
-                placehold {
+                bitz {
                     source sourceSets.main
                 }
             }
@@ -146,12 +146,12 @@ dependencies {
 jar {
     manifest {
         attributes([
-                "Specification-Title"     : "placehold",
-                "Specification-Vendor"    : "placeholdsareus",
+                "Specification-Title"     : "bitz",
+                "Specification-Vendor"    : "bitzsareus",
                 "Specification-Version"   : "1", // We are version 1 of ourselves
                 "Implementation-Title"    : project.name,
                 "Implementation-Version"  : project.jar.archiveVersion,
-                "Implementation-Vendor"   : "placeholdsareus",
+                "Implementation-Vendor"   : "bitzsareus",
                 "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }
